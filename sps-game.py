@@ -2,7 +2,7 @@ import random
 def sps_game():
         n=0
         u=0
-        while(n<=5):   
+        while(n<=10):   
             s=random.choice(['stone','paper','sissor'])  
             a=input("enter your choice from these: Stone , Paper ,Sissor :")
             f=open('sps-game.txt','a')
